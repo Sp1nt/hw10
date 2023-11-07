@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body {
+    margin: 35px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    display: block;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.container {
+    display: flex;
+    margin: auto;
+}
+.content-left {
+}
+.content-left:first-child {
+    margin-right: 25px;
+}
+
+.content-right{
+}
+
+.content-right:first-child {
+    margin-right: 25px;
+}
+.about-image_content {
+    padding: 40px;
+    border: 4px solid #000000;
+}
+.about-img {
+    width: 79vh;
+    height: 70vh;
+}
+.img-flex {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-link {
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+}
+.about-link:hover{
+    border: 2px solid #00BC52;
+}
+.scriptum {
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.info {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.code {
+    text-align: right;
+}
+.recomendation {
+    display: flex;
+    margin: 15px 0 5em;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid #00a046;
+}
+.recommendation-item {
+}
+.recommendation-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.recommendation-item:not(:last-child) {
+    margin-right: 15px;
+}
+.recommendation-img {
+    width: 80px;
+}
+.recommendation-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #049a45;
+}
+.recommendation-text {
+    color: #282727;
+}
+.recommendation-text:hover {
+    text-decoration: underline #ff0000;
+}
+.recommendation-price {
+    font-weight: bold;
+    width: max-content;
+}
+.content-sale {
+
+    border: 1px solid #e9e9e9;
+    border-radius: 8px;
+}
+.about-seller {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.about-seller p {
+    margin-right: 5px;
+}
+.about-seller img {
+    cursor: pointer;
+    width: 6em;
+}
+.content-trade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.buttons-products {
+    display: flex;
+    align-items: center;
+}
+
+.buttons-products a{
+    text-decoration: none;
+}
+
+.card-price_discount {
+    color: #555353;
+    font-size: 12px;
+
+}
+
+.card-price_common {
+    font-size: 25px;
+    color: #f81920;
+
+}
+
+.availability-text {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #00a046;
+}
+
+.like {
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url("img/voidheart.png");
+    background-size: 100%;
+    cursor: pointer;
+    transition: .50s ease;
+}
+
+.like:hover {
+    background-image: url("img/heart.png");
+    transform: scale(1.1);
+}
+
+.product-buy {
+    padding: 15px 9em;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: .50s ease;
+    color: #fff;
+    background-color: #029140;
+}
+.product-buy:hover {
+    background-color: #0ac159;
+}
+
+.product-buy:not(:last-child) {
+    margin-right: 20px;
+}
+
+.product-buy img {
+    width: 25px;
+    margin-right: 15px;
+}
+.product-credit {
+    padding: 15px 9em;
+    color: #029a44;
+    border-radius: 5px;
+    transition: .50s ease;
+    border: 1px solid #029a44;
+}
+.product-credit:hover {
+    background-color: #afbfb6;
+}
+.content-banner {
+    border-bottom: 1px solid #afbfb6;
+}
+.banner-full {
+    width: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+.content-list
+{
+    padding: 15px;
+}
+.list-flex {
+    display: flex;
+}
+.size img {
+    width: 55px;
+}
+.list-indent{
+    margin-right: 15px;
+}
+

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.cards {
+    margin: 25px;
+
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px #0000001a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: .50s ease;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 16px #ff663333;
+}
+
+.card-up {
+    flex: 220px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.like {
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    background-image: url("img/voidheart.png");
+    background-size: 100%;
+    cursor: pointer;
+    transition: .50s ease;
+}
+
+.like:hover {
+    
+    background-image: url("img/heart.png");
+    transform: scale(1.1);
+}
+
+.card-img {
+    margin: 25px 0 15px;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.card-img p {
+    top: 55%;
+    position: absolute;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.card-img img {
+    transition: .50s ease;
+}
+
+.card-img:hover p {
+    opacity: 1;
+}
+
+.card-img:hover img {
+    opacity: 0;
+}
+
+.card-down {
+    flex-direction: column;
+}
+
+.card-title {
+    margin: auto;
+    font-size: 14px;
+}
+
+.rating-stars {
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 19px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.rating-stars li{
+    display:inline-block;
+    color: #d1ae5b;
+}
+
+.rating-stars li:hover{
+    color: #8e8f91;
+    
+}
+
+.card-price_discount {
+
+    font-size: 12px;
+    color: #504e4e;
+    display: flex;
+
+}
+
+.card-price_common {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fa242b;
+    display: flex;
+    justify-content:space-between;
+}
+
+.grocery_trolley{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.card-sending {
+    display: inline-flex;
+    color: #00a046;
+    font-size: 12px;
+}
+
+.bus{
+    width: 20px;
+    margin-left: 10px;
+}  
+
+
+  
+
+  
+
+  
+
+  
